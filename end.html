@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>🌌 ExploreSpace Quiz</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <section>
+      <audio autoplay="true" loop="true" src="mp3/xDeviruchi - Take some rest and eat some food!.wav" type="audio/wav"></audio>
+      <div class="container">
+        <div id="end" class="flex-center flex-column">
+          <span>👾število točk👾</span>
+          <h1 id="finalScore"></h1>
+          <form>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Vpiši ime :)"
+            />
+            <button
+              type="submit"
+              class="btn-dis"
+              id="saveScoreBtn"
+              onclick="saveHighScore(event)"
+              disabled
+            >
+              Shrani
+            </button>
+          </form>
+          <a class="btna" href="/game.html">Ponovi igro</a>
+          <a class="btna" href="/">Domov</a>
+        </div>
+      </div>
+    </section>
+    
+    <script src="end.js"></script>
+  </body>
+</html>
