@@ -160,7 +160,7 @@ input{
     font-size: 1.2rem;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 0.1rem 1.4rem 0 rgba(28, 28, 28, 0.5);
+    box-shadow: 0 0.1rem 1.4rem 0 #1c1c1c80;
     border: none;
     outline: none;
     color: #130038;
