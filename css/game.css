@@ -42,11 +42,11 @@ section{
   }
   
   .correct {
-    background-color: #28a745 !important;
+    background-color: #00ff00 !important;
   }
   
   .incorrect {
-    background-color: #dc3545 !important;
+    background-color: #ff001e !important;
   }
 
 /* HUD */

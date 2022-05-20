@@ -51,6 +51,10 @@ getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
 
+        if (score == 0){
+            return window.location.assign('play-again.html');''
+        }
+
         return window.location.assign('end.html');
     }
 
@@ -84,6 +88,8 @@ getNewQuestion = () => {
         if(classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
         }
+
+        selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
