@@ -58,11 +58,12 @@ section{
 
 .hud-prefix{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .hud-main-text{
     text-align: center;
+    font-size: 2.5rem;
 }
 
 .btna, button{

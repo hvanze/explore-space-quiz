@@ -17,7 +17,7 @@ saveHighScore = (e) => {
     e.preventDefault();
 
     const score = {
-        score: Math.floor(Math.random() * 49),
+        score: Math.floor(Math.random() * 20),
         name: username.value
     };
     highScores.push(score);
