@@ -129,3 +129,41 @@ section{
   border: 1rem solid white;
 }
 
+.medal{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 492px) {
+  .exit-to-main-menu{
+    display: none;
+  }
+
+  .hud-prefix{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.hud-main-text{
+    text-align: center;
+    font-size: 2.2rem;
+  }
+
+  #question{
+    font-size: 1.5rem;
+  }
+
+  .choice-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  #game{
+      width: 90%;
+  }
+
+  #end{
+    width: 65%;
+  }
+}
+
