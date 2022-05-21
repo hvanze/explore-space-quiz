@@ -129,7 +129,30 @@ section{
   border: 1rem solid white;
 }
 
+.end-container{
+  height: 100vh;
+  align-items: center;
+}
+
+#play-again{
+  background-color: rgb(16, 0, 29);
+  padding: 4rem;
+  border-radius: 15px;
+  box-shadow: 0 .5rem 2rem 0 rgba(235, 123, 86, 1);
+  border: 1rem solid white;
+}
+
+.play-again-container{
+  height: 100vh;
+  align-items: center;
+}
+
 .medal{
+  text-decoration: none;
+}
+
+.score-num-emoji{
+  font-size: 2.75rem;
   text-decoration: none;
 }
 
@@ -155,6 +178,10 @@ section{
   .choice-text {
     font-size: 1.3rem;
   }
+
+  .score-num-emoji{
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 834px) {
@@ -163,7 +190,7 @@ section{
   }
 
   #end{
-    width: 65%;
+    width: 90%;
   }
 }
 

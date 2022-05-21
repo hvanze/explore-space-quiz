@@ -11,7 +11,7 @@ let availableQuestions = [];
 
 let questions = [
     {
-        question: '🌍 Kateri planet je tretji po vrsti v našem osončju?',
+        question: '🌍 Kateri planet je tretji po vrsti v našem Osončju?',
         choice1: 'Luna',
         choice2: 'Jupiter',
         choice3: 'Zemlja',
@@ -20,11 +20,11 @@ let questions = [
     },
     {
         question: "🌌 Kako imenujemo galaksijo, v kateri se nahaja naš planet?",
-        choice1: "Zvezdne steze",
-        choice2: "Rimska cesta",
+        choice1: "Rimska cesta",
+        choice2: "Zvezdne steze",
         choice3: "Andromeda",
         choice4: "črna luknja",
-        answer: 2,
+        answer: 1,
     },
     {
         question: "👽 Kako je ime simpatičnemu vesoljčku v filmu iz leta 1982?",
