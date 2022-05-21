@@ -30,7 +30,7 @@ let questions = [
         question: "👽 Kako je ime simpatičnemu vesoljčku v filmu iz leta 1982?",
         choice1: "Elon Musk",
         choice2: "Yoda",
-        choice3: "XÆA-12",
+        choice3: "James T. Kirk",
         choice4: "E.T.",
         answer: 4,
     },
