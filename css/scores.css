@@ -41,7 +41,7 @@
     box-shadow: 0 .5rem 1.4rem 0 rgba(86, 235, 111, 0.5);
     text-transform: uppercase;
     position: relative;
-    bottom: -75px;
+    bottom: -40px;
     animation: pulse 1.3s infinite;
 }
 

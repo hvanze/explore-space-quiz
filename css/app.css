@@ -139,6 +139,11 @@ main{
     background-color: lime;
 }
 
+.btn-dis[disabled]{
+    background-color: #616161 !important;
+    border: .65rem solid gray;
+}
+
 .btn-dis[disabled]:hover{
     cursor: not-allowed;
     box-shadow: none;
@@ -173,7 +178,7 @@ input::placeholder{
 }
 
 span{
-    font-size: 2rem;
+    font-size: 1.85rem;
     text-transform: uppercase;
     text-decoration: underline double;
 }
@@ -200,4 +205,52 @@ span{
 .author a{
     color: white;
     text-decoration: underline double;
+}
+
+.replay{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.rply-yes{
+    font-size: 1.25rem;
+    padding: 1rem 0;
+    width: 18rem;
+    text-align: center;
+    border: .65rem solid lime;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: lime;
+    box-shadow: 0 1rem 1.4rem 0 rgba(86, 235, 111, 0.5);
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+
+.rply-yes:hover, .rply-no:hover{
+    transform: scale(1.1);
+    transition-duration: .4s;
+}
+
+.rply-no{
+    font-size: 1.25rem;
+    padding: 1rem 0;
+    width: 18rem;
+    text-align: center;
+    border: .65rem solid #ff001e;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff001e;
+    box-shadow: 0 .5rem 1.4rem 0 rgba(255, 0, 30, 0.5);
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
