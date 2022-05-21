@@ -178,7 +178,7 @@ input::placeholder{
 }
 
 span{
-    font-size: 1.85rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     text-decoration: underline double;
 }
@@ -226,7 +226,7 @@ span{
     background-color: lime;
     box-shadow: 0 1rem 1.4rem 0 rgba(86, 235, 111, 0.5);
     text-transform: uppercase;
-    margin-top: 5rem;
+    margin-top: 4.5rem;
 }
 
 .rply-yes:hover, .rply-no:hover{
@@ -254,4 +254,13 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.points{
+    font-size: 1.3rem;
+    line-height: 2.25rem;
+}
+
+.mb{
+    margin-bottom: 4rem;
 }
