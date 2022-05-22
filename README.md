@@ -2,7 +2,7 @@
 
 ## Naloga: ExploreSpace Quiz
 
-![ExploreSpace Quiz image](/img/main-bg.jpg)
+![ExploreSpace Quiz image](/img/git-readme-img.jpg)
 
 ### Programski jeziki, programi, materiali:
 
