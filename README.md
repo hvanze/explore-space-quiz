@@ -2,7 +2,7 @@
 
 ## Naloga: ExploreSpace Quiz
 
-![ExploreSpace Quiz image](https://drive.google.com/file/d/1gjO1OkFsOooSIITjiYfZkwlZ7rB5jZ0D/view?usp=sharing)
+![ExploreSpace Quiz image](/img/main-bg.jpg)
 
 ### Programski jeziki, programi, materiali:
 
