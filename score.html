@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" sizes="64x64">
+    <link rel="apple-touch-icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/scores.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
-    <title>🌌 ExploreSpace Quiz</title>
+    <title>ExploreSpace Quiz - Score</title>
 </head>
 <body>
-    <section class="score-page">
-        <div class="scoreList">
+    <section class="d-flex bg-dark text-white score-page">
+        <div class="score-list-wrapper">
             <div class="container">
                 <div id="highScores" class="flex-center flex-column">
                     <h1 id="finalScore" class="flex-center">🏆Dosežki🏆</h1>
                     <ul id="highScoresList"></ul>
-                    <a class="btn-score" href="index.html">Nazaj..</a>
+                    <a class="btn btn-score" href="index.html">Nazaj..</a>
                 </div>
             </div>
         </div>
         <audio autoplay="true" loop="true" src="audio/endGame.mp3" type="audio/mpeg"></audio>
     </section>
 
+    <!--Game Score JS Script-->
     <script src="scores.js"></script>
 </body>
 </html>

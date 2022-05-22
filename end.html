@@ -4,46 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>🌌 ExploreSpace Quiz</title>
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" sizes="64x64">
+    <link rel="apple-touch-icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/game.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <title>ExploreSpace Quiz - End</title>
   </head>
   <body>
-    <section>
-      <div class="container end-container">
+    <section class="d-flex bg-dark text-white">
+      <div class="container end-game-container">
         <div id="end" class="flex-center flex-column">
           <span><span class="score-num-emoji">👾</span>število točk<span class="score-num-emoji">👾</span></span>
           <h1 id="finalScore"></h1>
           <form>
-            <input
-              type="text"
-              name="username"
-              id="username"
-              placeholder="Vpiši ime :)"
-            />
+            <input type="text" name="username" id="username" placeholder="Vpiši ime :)"/>
             <p class="points"><span class="medal">🥇</span> 30 točk (3/3)</p>
             <p class="points"><span class="medal">🥈</span> 20 točk (2/3)</p>
             <p class="points mb"><span class="medal">🥉</span> 10 točk (1/3)</p>
-            <button
-              type="submit"
-              class="btn-dis"
-              id="saveScoreBtn"
-              onclick="saveHighScore(event)"
-              disabled
-            >
+            <button type="submit" class="btn-dis" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>
               Shrani
             </button>
           </form>
-          <a class="btna" href="game.html">Ponovi igro</a>
-          <a class="btna" href="index.html">Domov</a>
+          <a class="btn-end" href="game.html">Ponovi igro</a>
+          <a class="btn-end red" href="index.html">Domov</a>
         </div>
       </div>
       <audio autoplay="true" loop="true" src="audio/endGame.mp3" type="audio/mpeg"></audio>
     </section>
     
+    <!--End game JS Script-->
     <script src="end.js"></script>
   </body>
 </html>

@@ -1,5 +1,11 @@
 :root{
-    background-color: #f2f2f2;
+    --primary-color: #00ff00;
+    --secondary-color: #ffffff;
+    --tertiary-color: #130038;
+    --quaternary-color: #ff001e;
+    --quinary-color: rgba(86, 235, 111, 0.5);
+    --senary-color: rgba(255, 0, 30, 0.5);
+    --septenary-color: #616161;
     font-size: 62.5%;
 }
 
@@ -8,7 +14,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Press Start 2P', Arial, Helvetica, sans-serif, cursive;
-    color: lime;
+    color: var(--primary-color);
 }
 
 h1, h2, h3, h4{
@@ -17,7 +23,7 @@ h1, h2, h3, h4{
 
 h1{
     font-size: 3rem;
-    color: #fff;
+    color: var(--secondary-color);
     margin-bottom: 5rem;
     padding-top: 2rem;
 }
@@ -32,7 +38,7 @@ h2{
     font-size: 2rem;
     margin-bottom: 4rem;
     font-weight: 700;
-    background-color: #130038;
+    background-color: var(--tertiary-color);
     padding: 2rem;
     border-radius: 10px;
 }
@@ -54,7 +60,7 @@ h3{
     padding: 2rem;
 }
 
-.btn-container{
+.btn-wrapper{
     align-items: flex-end;
 }
 
@@ -93,30 +99,30 @@ main{
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: .65rem solid lime;
+    border: .65rem solid var(--primary-color);
     border-radius: 10px;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #fff;
-    background-color: lime;
-    box-shadow: 0 .5rem 1.4rem 0 rgba(86, 235, 111, 0.5);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    box-shadow: 0 .5rem 1.4rem 0 var(--quinary-color);
     text-transform: uppercase;
     animation: pulse 1.3s infinite;
 }
 
-.btn-diff{
+.btn-secondary{
     animation: none !important;
-    background-color: #130038;
-    border: .65rem solid #130038;
+    background-color: var(--tertiary-color);
+    border: .65rem solid var(--tertiary-color);
     box-shadow: none !important;
 }
 
-.btn-diff:hover{
+.btn-secondary:hover{
     cursor: pointer;
     box-shadow: 0 1rem 1.4rem 0 rgba(31, 0, 63, 0.5) !important;
     transform: translateY(-0.1rem);
     transition: transform 300ms;
-    background-color: #130038 !important;
+    background-color: var(--tertiary-color) !important;
 }
 
 @keyframes pulse{
@@ -137,11 +143,11 @@ main{
     box-shadow: 0 1rem 1.4rem 0 rgba(86, 235, 111, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 300ms;
-    background-color: lime;
+    background-color: var(--primary-color);
 }
 
 .btn-dis[disabled]{
-    background-color: #616161 !important;
+    background-color: var(--septenary-color) !important;
     border: .65rem solid gray;
 }
 
@@ -170,12 +176,12 @@ input{
     box-shadow: 0 0.1rem 1.4rem 0 #1c1c1c80;
     border: none;
     outline: none;
-    color: #130038;
+    color: var(--tertiary-color);
     animation: pulse 1.4s infinite;
 }
 
 input::placeholder{
-    color: #130038 !important;
+    color: var(--tertiary-color) !important;
     text-align: center;
 }
 
@@ -188,14 +194,14 @@ span{
 .author{
     position: absolute;
     top: 0;
-    background-color: lime;
+    background-color: var(--primary-color);
     box-shadow: 0 1rem 1.4rem 0 rgba(86, 235, 111, 0.5);
     height: 30px;
     width: 200px;
     padding-top: 10px;
     text-align: center;
     border-radius: 0 0 10px 10px ;
-    color: white;
+    color: var(--secondary-color);
     cursor: pointer;
 }
 
@@ -205,48 +211,48 @@ span{
 }
 
 .author a{
-    color: white;
+    color: var(--secondary-color);
     text-decoration: underline double;
 }
 
-.replay{
+.play-again-title{
     text-align: center;
     font-size: 1.5rem;
     line-height: 2.5rem;
 }
 
-.rply-yes{
+.answer-yes{
     font-size: 1.25rem;
     padding: 1rem 0;
     width: 18rem;
     text-align: center;
-    border: .65rem solid lime;
+    border: .65rem solid var(--primary-color);
     border-radius: 10px;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #fff;
-    background-color: lime;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
     box-shadow: 0 1rem 1.4rem 0 rgba(86, 235, 111, 0.5);
     text-transform: uppercase;
     margin-top: 4rem;
 }
 
-.rply-yes:hover, .rply-no:hover{
+.answer-yes:hover, .answer-no:hover{
     transform: scale(1.1);
     transition-duration: .4s;
 }
 
-.rply-no{
+.answer-no{
     font-size: 1.25rem;
     padding: 1rem 0;
     width: 18rem;
     text-align: center;
-    border: .65rem solid #ff001e;
+    border: .65rem solid var(--quaternary-color);
     border-radius: 10px;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #fff;
-    background-color: #ff001e;
+    color: var(--secondary-color);
+    background-color: var(--quaternary-color);
     box-shadow: 0 .5rem 1.4rem 0 rgba(255, 0, 30, 0.5);
     text-transform: uppercase;
     margin-top: 1rem;
@@ -280,7 +286,7 @@ span{
         width: 100vw;
     }
 
-    .replay{
+    .play-again-title{
         font-size: 1.2rem;
     }
 
