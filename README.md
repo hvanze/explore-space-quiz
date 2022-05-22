@@ -10,6 +10,6 @@
 
 - [x] Pixelmator (za preoblikovanje grafike. Vir: https://www.vecteezy.com/vector-art/6242361-space-element-in-space-background)
 
-- [x] Bootstrap5
+- [x] Bootstrap5, Git, Github, Firefox Inspect Tool
 
 - [x] Audio datoteke. Vir: https://soundcloud.com/xdeviruchi/sets/8-bit-fantasy-adventure
