@@ -16,7 +16,7 @@
 
 ### 2. Pravila igre
 
-ExploreSpace Quiz zajema 3 vprašanja na temo vesolja. Vsako pravilno odgovorjeno vprašanje je vredno 10 točk. Nepravilno odgovorjeno vprašanje je vredno 0 točk. Če igralec odgovori pravilno na vsaj eno vprašanje, lahko v polje vpiše svoje ime in izbere možnost **SHRANI**. Najboljših prvih šest dosežkov se shranjuje v bazo **DOSEŽKI**. Če igralec doseže 0 točk, se odpre okno v katerem lahko izbira ali bo kviz igral ponovno ali ne.
+ExploreSpace Quiz zajema 3 vprašanja na temo vesolja. Vsako pravilno odgovorjeno vprašanje je vredno 10 točk. Nepravilno odgovorjeno vprašanje je vredno 0 točk. Če igralec odgovori pravilno na vsaj eno vprašanje, lahko v polje vpiše svoje ime in izbere možnost **SHRANI**. Najboljših prvih šest dosežkov se shranjuje v bazo **DOSEŽKI**. Če igralec doseže 0 točk, se odpre okno, v katerem lahko izbira ali bo kviz igral ponovno ali ne.
 
 **Veliko zabave pri reševanje kviza!**
 
