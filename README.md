@@ -28,8 +28,4 @@ Spletno mesto uporablja audio vsebine, ki naredi reševanje kviza še bolj zabav
 
 Veseli me, da sem po poslani prijavi dobil priložnost za reševanje te naloge. Bilo je zabavno, predvsem pa sem se naučil nekaj novih stvari z Javascriptom. :muscle:
 
-
-
-
-
-**Veliko zabave pri reševanje kviza!**
+**Veliko zabave pri reševanju kviza!**
