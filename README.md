@@ -26,6 +26,6 @@ Spletno mesto uporablja audio vsebine, ki naredi reševanje kviza še bolj zabav
 
 Če si odkril, da to spletno mesto obstaja in rešil kviz, bom zelo vesel tvoje pozitivne ali negativne konstruktivne kritike glede oblikovanja in programske kode. Priporočam se tudi za tvoj nasvet, ki mi bo pomagal, da bom lahko pri spletnem programiranju še boljši. Sporočila sprejemam na: ahvasti@gmail.com :blush:
 
-Veseli me, da sem po poslani prijavi dobil priložnost za reševanje te naloge. Bilo je zabavno, predvsem pa sem se naučil nekaj novih stvari z Javascriptom. :muscle:
+Zahvaljujem se podjetju **Escapebox**, da sem po poslani prijavi dobil priložnost za reševanje te naloge. Bilo je zabavno, predvsem pa sem se naučil nekaj novih stvari pri programiranju z Javascriptom. :muscle:
 
 **Veliko zabave pri reševanju kviza!**
