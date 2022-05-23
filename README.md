@@ -20,7 +20,7 @@ ExploreSpace Quiz zajema 3 vprašanja na temo vesolja. Vsako pravilno odgovorjen
 
 ### 3. Dovoli brskalniku dostop do audio vsebine
 
-Spletno mesto uporablja audio vsebine, ki naredi reševanje kviza še bolj zabaven. Če se zvok ne predvaja pri dostopu na spletno mesto lahko za celostno uporabniško izkušnjo uporabnik brskalniku pod nastavitvami dovoli dostop do zvočnih vsebin. :musical_note:
+Spletno mesto uporablja audio vsebine, ki naredi reševanje kviza še bolj zabaven. Če se zvok ne predvaja pri dostopu na spletno mesto lahko za celostno uporabniško izkušnjo uporabnik brskalniku pod nastavitvami dovoli dostop do zvočnih vsebin in osveži spletno stran. :musical_note:
 
 ### 4. Sporočilo in zahvala
 
