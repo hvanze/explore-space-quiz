@@ -4,7 +4,7 @@
 
 ![ExploreSpace Quiz image](/assets/img/git-readme-img.jpg)
 
-### 1. Programski jeziki, programi, materiali:
+### 1. :floppy_disk: Programski jeziki, programi, materiali:
 
 - [x] VS Code (HTML5, CSS, JS)
 
@@ -14,12 +14,22 @@
 
 - [x] Audio datoteke. Vir: https://soundcloud.com/xdeviruchi/sets/8-bit-fantasy-adventure
 
-### 2. Pravila igre
+### 2. :alien: Pravila igre
 
 ExploreSpace Quiz zajema 3 vprašanja na temo vesolja. Vsako pravilno odgovorjeno vprašanje je vredno 10 točk. Nepravilno odgovorjeno vprašanje je vredno 0 točk. Če igralec odgovori pravilno na vsaj eno vprašanje, lahko v polje vpiše svoje ime in izbere možnost **SHRANI**. Najboljših prvih šest dosežkov se shranjuje v bazo **DOSEŽKI**. Če igralec doseže 0 točk, se odpre okno, v katerem lahko izbira ali bo kviz igral ponovno ali ne.
 
+### 3. :musical_note: Dovoli brskalniku dostop do audio vsebine
+
+Spletno mesto uporablja audio vsebine, ki naredi reševanje kviza še bolj zabaven. Če se zvok ne predvaja pri dostopu na spletno mesto lahko za celostno uporabniško izkušnjo uporabnik brskalniku pod nastavitvami dovoli dostop do zvočnih vsebin.
+
+### 4. :loudspeaker: Sporočilo in zahvala
+
+Če si odkril, da to spletno mesto obstaja in rešil kviz, bom zelo vesel tvoje pozitivne ali negativne konstruktivne kritike glede oblikovanja in programske kode. Priporočam se tudi za tvoj nasvet, ki mi bo pomagal, da bom lahko pri spletnem programiranju še boljši. Sporočila sprejema na: ahvasti@gmail.com :blush:
+
+Veseli me, da sem po poslani prijavi dobil priložnost za reševanje te naloge. Bilo je zabavno, predvsem pa sem se naučil nekaj novih stvari z Javascriptom. :muscle:
+
+
+
+
+
 **Veliko zabave pri reševanje kviza!**
-
-### 3. Dovoli brskalniku dostop do audio vsebine
-
-Spletno mesto uporablja audio vsebine, ki naredi reševanje kviza še bolj zabaven. Če se zvok ne predvaja pri dostopu na spletno mesto lahko za celostno uporabniško izkušnjo uporabnik brskalniku pod nastavitvami dovoli dostop do zvočnih vsebin. 
