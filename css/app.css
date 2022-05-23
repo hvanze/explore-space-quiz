@@ -65,7 +65,7 @@ h3{
 }
 
 main{
-    background-image: url(../img/main-bg.jpg);
+    background-image: url(../assets/img/main-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -279,7 +279,7 @@ span{
     }
 
     main{
-        background-image: url(../img/main-bg-mobile.jpg) !important;
+        background-image: url(../assets/img/main-bg-mobile.jpg) !important;
     }
 
     #end{
@@ -302,6 +302,6 @@ span{
 
 @media screen and (max-width: 834px) {
     main{
-        background-image: url(../img/main-bg-tablet.jpg);
+        background-image: url(../assets/img/main-bg-tablet.jpg);
     }
 }
